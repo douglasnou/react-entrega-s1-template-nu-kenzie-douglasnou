@@ -1,2 +1,8 @@
-# react-entrega-s1-template-nu-kenzie-douglasnou
-Este projeto é uma "web wallet" feito com React e SASS. Nela é possível adicionar e remover transações que possuem nome, valor e tipo (entrada e despesa), onde o total de dinheiro na carteira é renderizado em tempo real na tela. Foram usados conceitos como props, children, useState, extend e outros.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

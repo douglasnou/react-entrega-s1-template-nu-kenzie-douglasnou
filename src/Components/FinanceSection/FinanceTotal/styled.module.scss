@@ -1,0 +1,39 @@
+.total{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+
+    .totalSection {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        
+    
+        .totalContainer {
+            width: 355px;
+            height: 96px;
+
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            padding: 10px;
+
+            border: 1px solid var(--grey-2);
+            border-radius: 5px;
+
+            span{
+                color: var(--color-primary);
+            }
+            .totalText{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                height: 100%;
+            }
+        }
+    }
+}

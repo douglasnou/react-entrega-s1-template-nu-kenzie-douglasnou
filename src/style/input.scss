@@ -1,0 +1,19 @@
+.input{
+    width: 325px;
+    height: 48px;
+
+
+    background: var(--grey-1);
+    border: none;
+    border-radius: 8px;
+
+    gap: 20px;
+    padding: 10px;
+
+    text-align: left;
+
+    &:focus{
+        background: white;
+        border: 2px solid var(--grey-4);
+    }
+}

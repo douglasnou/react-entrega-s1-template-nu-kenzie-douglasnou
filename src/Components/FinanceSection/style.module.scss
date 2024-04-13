@@ -1,0 +1,28 @@
+.financeSection {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .sectionContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    @media(min-width:720px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .sectionContainer{
+            width: 100%;
+            max-width: 1000px;
+            height: 100%;
+            
+           grid-template-columns: repeat(2, 1fr);
+        }
+
+    }
+}
