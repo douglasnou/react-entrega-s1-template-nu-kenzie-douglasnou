@@ -3,7 +3,6 @@ export const FinanceCard = ({removeFinance, financies}) => {
 
 
     return (
-        financies.title, financies.value == "" ? "" :
 
         <li className={`${styled.card} ${financies.type == "Entrada" ? styled.green : styled.grey}`}>
             <div className={styled.cardItem}>

@@ -13,6 +13,7 @@ export const FinanceList = ({ noteFinance, setNoteFinance, removeFinance }) => {
                                     <FinanceCard noteFinance={noteFinance} setNoteFinance={setNoteFinance}
                                         key={financies.id} financies={financies} removeFinance={removeFinance} />
                                 ))
+                                
                             }
                         </ul>
                 }

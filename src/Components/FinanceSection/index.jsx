@@ -11,6 +11,7 @@ export const FinanceSection = () => {
     const [money, setMoney] = useState("");
     const [type, setType] = useState("");
     const [noteFinance, setNoteFinance] = useState(finance);
+    
     const submit = (e)=>{
         e.preventDefault();
         setDescription("");

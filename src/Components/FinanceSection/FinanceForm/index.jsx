@@ -27,7 +27,7 @@ export const FinanceForm = ({ newObject, submit, description, setDescription, mo
                         </select>
                     </div>
 
-                    <button onClick={() => addFinance(newObject)}>Inserir valor</button>
+                    <button onClick={() => {(description && money && type) == "" ? "" : addFinance(newObject)}}>Inserir valor</button>
                 </div>
             </form>
         </div>
